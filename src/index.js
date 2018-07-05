@@ -13,7 +13,7 @@ const store = configureStore();
 
 render(
     <provider store={store}>
-        <Router history={ browserHistory } routes={routes}/>
+        <Router history={browserHistory} routes={routes}/>
     </provider>,
     document.getElementById('app')
 ); 
